@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding-top: 20px;
+}
+header h1{
+    padding-left:200px;
+}
+header p{
+    
+    padding-left: 200px;
+}
+.nav{
+    width: 567px;
+    height: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: gray;
+    position: relative;
+    top: -46px;
+    left: 761px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.container{
+    width:960px;
+    margin: auto;
+    overflow: auto;
+    
+}
+.large_box{
+    margin-top: 70px;
+    overflow: auto;
+}
+.large_box img{
+    float: left;
+}
+.col1{
+    float: left;
+    width: 212px;
+    margin-left: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+.col1 img{
+    float: left;
+}
+.col1 h3{
+    font-size: 12px;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 36px;
+}
+.row2{
+     margin-top: 44px;
+    width: 960px;
+    font-size: 13px;
+}
+.read{
+    float: right;
+    color: orange;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.mid_box img{
+    float: left;
+    margin-left: 16px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+.mid_box p{
+    float: right;
+    color: orange;
+    padding-top: 30px;
+}
+.small_box{
+    float: left;
+    width: 70%;
+    color: gray;
+    /* margin-top: 5px; */
+}
+
+.categories{
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    color: gray;
+}
+.categories h1{
+    border-bottom: 1px solid gray;
+}
+.left_row{
+    float: left;
+    margin-top: 30px;
+}
+.left_row a{
+    color: rgb(238, 139, 73);
+    text-decoration: none;
+}
+.left_row img{
+    float: left;
+}
+.categories a{
+    color:gray;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.categories i{
+    color: rgb(238, 139, 73) ;
+}
+
+.categories ul li{
+    border-bottom: 1px dotted  rgb(238, 139, 73);
+}
+footer{
+    margin-top: 30px;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    padding-top: 11px;
+    padding-left: 300px;
+    /* clear: both; */
+}
